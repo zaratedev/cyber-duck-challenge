@@ -7,6 +7,9 @@ use App\Models\Company;
 
 class CompanyController extends Controller
 {
+    /**
+     * CompanyController constructor.
+     */
     public function __construct()
     {
         $this->middleware('auth');
